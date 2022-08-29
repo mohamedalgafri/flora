@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&display=swap');
+
+*{
+ font-family: 'Almarai', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    direction: rtl;
+}
+.body_flora{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.img_flora{
+    width: 50%;
+}
+.img_flora hr{
+   border: 1px solid #1CBDCB;
+   box-shadow:#1cbccb3f 0px 1px 4px;
+}
+
+.img_flora img{
+    width: 100%;
+}
+.textleft_side{
+    width: 80%;
+    text-align: center;
+}
+.textleft_side h1{
+    font-size: 45px;
+    color: #1CBDCB;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.textleft_side p{
+    text-align: start;
+    color: #BEBEBE;
+    font-size: 18px;
+}
+.right_side{
+    width: 50%;
+    background-color: #1CBDCB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginflora{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+.loginflora img{
+    width: 80%;
+}
+.imglog{
+    display: flex;
+    justify-content: center;
+}
+.loginflora h2{
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.loginflora h4{
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+.inputflo{
+    margin-bottom: 20px;
+}
+.inputflo p{
+    font-size: 13px;
+}
+.inputflo input{
+    margin-top: 2px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn_Signin{
+    margin: 20px 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #1CBDCB;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.powered {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.powered p{
+    font-size: 13px;
+    color: #AAAAAA;
+}
+.powered a{
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media (max-width:1150px) {
+    .textleft_side h1{
+        font-size: 34px;
+    }
+    .textleft_side p{
+        font-size: 15px;
+    }
+}
+@media (max-width:900px) {
+    .body_flora{
+        flex-direction: column-reverse;
+    }
+    .left_side{
+        display: none;
+    }
+    .right_side{
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .loginflora{
+        width: 90%;
+    }
+}
