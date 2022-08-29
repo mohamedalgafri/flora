@@ -143,3 +143,72 @@
         width: 90%;
     }
 }
+
+/* ////////////////////////////////// blur //////////////// */
+
+.hrrrr{
+    width: 100%;
+    margin-top: -30px;
+    transition: all .5s ease;
+    /* transition-duration: .5s; */
+}
+.left_side:hover  .hrrrr{
+    transform: translateY(-285px);
+    transition-delay: .1s;
+    transition-duration: 1s;
+    /* animation-duration: 7s;
+    animation-delay: 5s !important; */
+}
+
+.img_flora{
+    transition: all .5s ease;
+    /* animation-delay: 3s; */
+    transition-duration: 1s;
+}
+ .left_side:hover  img{
+    transition-delay: .1s ;
+    filter: blur(4px);
+    animation: fff 1s both  ease;
+}
+@keyframes fff {
+    0%{
+        filter: blur(0px);
+    }
+    30%{
+        filter: blur(1px);
+    }
+    50%{
+        filter: blur(2px);
+    }
+    70%{
+        filter: blur(2.5px);
+    }
+    80%{
+        filter: blur(3px);
+    }
+    90%{
+        filter: blur(3.5px);
+    }
+    100%{
+        filter: blur(4px);
+    }
+}
+/* @keyframes mymove {
+    from {filter: blur(0px);}
+    to {filter: blur(4px);}
+  } */
+.popblo{
+    width: 10px;
+    height: 10px;
+    background-color: #1CBDCB;
+    border-radius: 50%;
+    margin-bottom: -6px;
+}
+.popblo2{
+    width: 10px;
+    height: 10px;
+    background-color: #1CBDCB;
+    float: right;
+    border-radius: 50%;
+    margin-top: -5px;
+}
