@@ -157,11 +157,21 @@ body{
     /* transition-duration: .5s; */
 }
 .left_side:hover  .hrrrr{
-    transform: translateY(-285px);
+    transform: translateY(-290px);
     transition-delay: .1s;
     transition-duration: 1s;
     /* animation-duration: 7s;
     animation-delay: 5s !important; */
+}
+@media (min-width:1500px) {
+    .left_side:hover  .hrrrr{
+        transform: translateY(-360px);
+    }
+}
+@media (min-width:1850px) {
+    .left_side:hover  .hrrrr{
+        transform: translateY(-410px);
+    }
 }
 
 .img_flora{
